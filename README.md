@@ -1,7 +1,7 @@
 
 # Portfolio Template
 
-Welcome to my portfolio template repository! This project contains a simple, clean, and responsive HTML/CSS portfolio template. It's designed to help web developers, especially beginners, showcase their work and skills in a professional manner.
+Welcome to my portfolio template repository! This project contains a simple, clean, and responsive HTML/CSS & Javascript portfolio template. It's designed to help web developers, especially beginners, showcase their work and skills in a professional manner.
 
 ## Demo
 
