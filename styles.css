@@ -17,6 +17,7 @@ header {
 
 nav ul {
     list-style: none;
+    padding: 0;
 }
 
 nav ul li {
@@ -72,6 +73,7 @@ nav ul li a {
 .projects .project-list {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -91,6 +93,7 @@ nav ul li a {
     list-style: none;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -135,4 +138,58 @@ footer {
     padding: 10px 0;
     text-align: center;
     margin-top: 20px;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .hero-content h1 {
+        font-size: 30px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .hero-content .btn {
+        padding: 8px 15px;
+        font-size: 16px;
+    }
+
+    .projects .project-item {
+        width: 100%;
+    }
+
+    .skills ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 24px;
+    }
+
+    .hero-content p {
+        font-size: 14px;
+    }
+
+    .hero-content .btn {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    .projects .project-item {
+        width: 100%;
+    }
+
+    .skills ul {
+        flex-direction: column;
+        gap: 5px;
+    }
 }
