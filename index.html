@@ -83,5 +83,17 @@
     <footer>
         <p>© 2024 Your Name. All Rights Reserved.</p>
     </footer>
+<script>
+    // Smooth scrolling for navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+
 </body>
 </html>
